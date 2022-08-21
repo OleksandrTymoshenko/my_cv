@@ -15,7 +15,7 @@ body {
 /* Main content sections */
 
 .main-content-sections {
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 .main-content-titel {
   font-style: normal;
@@ -28,16 +28,8 @@ body {
 
 /* About me section */
 
-.about-me-sections {
-  margin-bottom: 40px;
-}
-.about-me-profession {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #212121;
-  margin-bottom: 20px;
+.goal-sections {
+  margin-top: 50px;
 }
 .about-me-name {
   font-style: normal;
@@ -48,47 +40,40 @@ body {
   margin-bottom: 25px;
 }
 .about-me-discription {
-  color: #212121;
-  width: 700px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 24px;
-}
+  color: #212121;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
 
 /* My project section */
 
 .my-projects-selections {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .my-projects-list {
   padding: 0 0 0 17px;
+  /* list-style: none; */
 }
 
 .my-projects-item {
   color: #212121;
-  font-weight: bold;
+  margin-top: 5px;
 }
-.my-projects-bracket {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #212121;
-}
-.my-projects-text {
+
+.my-projects-item-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 24px;
   color: #212121;
-  margin-left: 5px;
+  margin-right: 20px;
 }
 .my-projects-link {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
   line-height: 24px;
   color: #212121;
 }
@@ -96,62 +81,35 @@ body {
 /* My work experience section */
 
 .my-work-experience-section {
+  margin-bottom: 10px;
 }
 .my-work-experience-company {
   color: #212121;
 }
-.my-work-experience-position {
+.my-work-experience-list {
+  padding: 0 0 0 17px;
+}
+.my-work-experience-description {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0 0 10px 0;
+  line-height: 24px;
   color: #212121;
-}
-.my-work-experience-period {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #212121;
-  margin: 0 0 10px 0;
-}
-.my-work-experience-divider {
-  color: #212121;
-}
-.my-work-experience-duties {
-  padding: 0 0 0 17px;
+  margin-right: 20px;
 }
 .my-work-experience-duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 24px;
   color: #212121;
+  margin-right: 20px;
 }
 .my-work-experience-company-block {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 /* My education section */
 .my-education-section {
-  margin-top: 45px;
-}
-.university-name {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #212121;
-  margin-bottom: 10px;
-}
-.university-specialty {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #212121;
-  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 /* Sidebar-section */
@@ -178,13 +136,13 @@ body {
 }
 /* Contacts section */
 
-.contact-section-type {
+.contact-section-item {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: #c7c1b9;
-  margin-right: 7px;
+  margin-left: 15px;
 }
 .contact-section-link {
   font-style: normal;
@@ -199,6 +157,7 @@ body {
 .tech-skills-list,
 .soft-skills-list {
   padding: 0 0 0 17px;
+  /* list-style: none; */
 }
 
 .tech-skills-item,
