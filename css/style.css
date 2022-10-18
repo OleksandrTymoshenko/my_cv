@@ -6,7 +6,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1150px;
+  width: 1070px;
   background-color: #c7c1b9;
   margin: 40px auto;
 }
@@ -14,7 +14,6 @@ body {
 /* Main content sections */
 
 .main-content-sections {
-  /* padding: 0px 30px; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
@@ -71,7 +70,6 @@ body {
   font-weight: normal;
   line-height: 24px;
   color: #212121;
-  /* margin-right: 20px; */
 }
 .my-projects-link {
   font-style: normal;
@@ -96,7 +94,6 @@ body {
   font-weight: bold;
   line-height: 24px;
   color: #212121;
-  /* margin-right: 20px; */
 }
 .my-work-experience-duty {
   font-style: normal;
