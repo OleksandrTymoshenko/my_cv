@@ -1,6 +1,10 @@
 body {
   font-family: 'Rubik', sans-serif;
   background-color: #f5f7fa;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .main-container {
